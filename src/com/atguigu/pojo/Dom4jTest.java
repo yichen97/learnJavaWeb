@@ -29,6 +29,7 @@ public class Dom4jTest {
             String name = nameElement.getText();
             String Sn = book.attributeValue("sn");
             System.out.println(name);
+            System.out.println("sn 为" + Sn);
         }
     }
 
