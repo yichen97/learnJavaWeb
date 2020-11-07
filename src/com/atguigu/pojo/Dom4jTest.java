@@ -28,6 +28,8 @@ public class Dom4jTest {
             System.out.println(nameElement);
             String name = nameElement.getText();
             String Sn = book.attributeValue("sn");
+            System.out.println(name);
+            System.out.println(Sn);
         }
     }
 
